@@ -1,0 +1,15 @@
+{
+    "bounds": [ -180, -85.0511, 180, 85.0511 ],
+    "center": [ 0, 0, 0 ],
+    "format": "pbf",
+    "id": "uber",
+    "maskLevel": 8,
+    "maxzoom": 14,
+    "minzoom": 0,
+    "name": "Uber",
+    "scheme": "xyz",
+    "tilejson": "2.0.0",
+    "tilezooms": [5,6,7,8,9,10,11,12,13,14],
+    "tiles": [ https://bloodhound.uber.com/tiles/surge/8/{z}/{x}/{y}]
+}
+
