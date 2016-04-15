@@ -1,0 +1,504 @@
+{
+  "version": 8,
+  "name": "hexsurge-stylesheet",
+  "sources": {
+    "SOURCE_NAME": {
+      "tiles": [
+        "URL_TEMPLATE"
+      ],
+      "minzoom": 9,
+      "maxzoom": 20,
+      "type": "vector"
+    }
+  },
+  "layers": [
+    {
+      "id": "SOURCE_NAME-hexagons-1",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          0.99
+        ],
+        [
+          "<",
+          "multiplier",
+          1.09
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(250,57,57,0.0)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-1.1",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          1.09
+        ],
+        [
+          "<",
+          "multiplier",
+          1.19
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(250,57,57,0.2)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-1.2",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          1.19
+        ],
+        [
+          "<",
+          "multiplier",
+          1.29
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(249,154,12,0.3)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-1.3",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          1.29
+        ],
+        [
+          "<",
+          "multiplier",
+          1.39
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(247,139,12,0.34)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-1.4",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          1.39
+        ],
+        [
+          "<",
+          "multiplier",
+          1.49
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(247,125,12,0.38)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-1.5",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          1.49
+        ],
+        [
+          "<",
+          "multiplier",
+          1.59
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(244,123,12,0.42)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-1.6",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          1.59
+        ],
+        [
+          "<",
+          "multiplier",
+          1.69
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(242,108,12,0.46)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-1.7",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          1.69
+        ],
+        [
+          "<",
+          "multiplier",
+          1.79
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(242,94,12,0.49)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-1.8",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          1.79
+        ],
+        [
+          "<",
+          "multiplier",
+          1.89
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(239,93,11,0.52)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-1.9",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          1.89
+        ],
+        [
+          "<",
+          "multiplier",
+          1.99
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(239,81,14,0.55)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-2",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          1.99
+        ],
+        [
+          "<",
+          "multiplier",
+          2.09
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(239,68,14,0.58)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-2.1",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          2.09
+        ],
+        [
+          "<",
+          "multiplier",
+          2.19
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(237,67,14,0.61)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-2.2",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          2.19
+        ],
+        [
+          "<",
+          "multiplier",
+          2.29
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(237,54,14,0.63)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-2.3",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          2.29
+        ],
+        [
+          "<",
+          "multiplier",
+          2.39
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(234,53,14,0.66)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-2.4",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          2.39
+        ],
+        [
+          "<",
+          "multiplier",
+          2.49
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(234,40,14,0.68)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-2.5",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          2.49
+        ],
+        [
+          "<",
+          "multiplier",
+          2.59
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(234,40,14,0.7)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-2.6",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          2.59
+        ],
+        [
+          "<",
+          "multiplier",
+          2.69
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(232,40,13,0.72)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-2.7",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          2.69
+        ],
+        [
+          "<",
+          "multiplier",
+          2.79
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(232,27,13,0.74)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-2.8",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          2.79
+        ],
+        [
+          "<",
+          "multiplier",
+          2.89
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(232,27,13,0.76)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-2.9",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        "all",
+        [
+          ">=",
+          "multiplier",
+          2.89
+        ],
+        [
+          "<",
+          "multiplier",
+          2.99
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(229,13,13,0.78)"
+      }
+    },
+    {
+      "id": "SOURCE_NAME-hexagons-3",
+      "type": "fill",
+      "source": "SOURCE_NAME",
+      "source-layer": "shapes",
+      "filter": [
+        ">=",
+        "multiplier",
+        2.99
+      ],
+      "paint": {
+        "fill-color": "rgba(229,13,13,0.8)"
+      }
+    },
+    {
+      "layout": {
+        "text-letter-spacing": 0.2,
+        "text-size": {
+          "stops": [
+            [
+              9,
+              25
+            ],
+            [
+              15,
+              35
+            ],
+            [
+              20,
+              45
+            ]
+          ]
+        },
+        "text-font": [
+          "ClanPro-NarrMedium"
+        ],
+        "text-field": "{text-field}"
+      },
+      "paint": {
+        "text-color": "white"
+      },
+      "source": "SOURCE_NAME",
+      "source-layer": "labels",
+      "type": "symbol",
+      "id": "SOURCE_NAME-labels"
+    }
+  ],
+  "owner": "pgong",
+  "created": "03/31/2016"
+}
